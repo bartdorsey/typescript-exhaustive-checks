@@ -42,7 +42,7 @@ switch (pet.sound) {
     case 'meow':
         // do something with a cat
     default: 
-        const _exhaustiveCheck: never = pet
+        const _exhaustiveCheck: never = pet // `Type 'Dog' is not assignable to type 'never'
 }
 ```
 
