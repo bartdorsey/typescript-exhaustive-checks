@@ -33,7 +33,7 @@ switch (pet.sound) {
 }
 ```
 
-Then there's nothing Typescript can do to make sure we've handled by cats and dogs.
+Then there's nothing Typescript can do to make sure we've handled both cats *and* dogs.
 
 However, if in the default case we assign the pet to a variable of type `never`
 
