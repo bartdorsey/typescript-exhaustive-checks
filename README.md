@@ -81,6 +81,6 @@ interface Pig {
 type Pet = Cat | Dog | Pig
 ```
 
-By adding this type, the switch state will start throwing an error, letting the
+By adding this type, the switch statement will start throwing an error, letting the
 developer who added the Pig type know where she needs to add code to handle the
 Pig type.
